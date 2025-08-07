@@ -1,81 +1,76 @@
+# Emergency Stop Button Enclosure
+
+This project documents the design and implementation of a custom CNC-machined housing for an emergency stop button. The machine that required this button needed both functional and aesthetic considerations: a rigid aluminum enclosure to resist mechanical stress and a sleek appearance with no protruding components. To achieve this, I designed an L-shaped enclosure made from two interlocking aluminum components, with an acrylic cover panel mounted via standoffs. This allowed the button to remain accessible while cleanly hiding the electronics and mounting features.
 
 ---
 
 ## 📐 CAD Drawings
 
-### **1. Long Aluminum Side**
+### 🔧 Long Aluminum Side
 
 ![Long Side Drawing](cad_drawings/long_aluminum_side_drawing.png)
 
 Displays front and isometric views of the longer aluminum enclosure side.
 
-- Mounting slots for attachment to device.
-- Material-reducing cutouts to lower weight while retaining stiffness.
-- Threaded holes for bolting to the short side.
+- **Mounting slots** for attachment to device  
+- **Material-reducing cutouts** to lower weight while retaining stiffness  
+- **Threaded holes** for bolting to the short side  
 
 ---
 
-### **2. Short Aluminum Side**
+### 🔧 Short Aluminum Side
 
 ![Short Side Drawing](cad_drawings/short_aluminum_side_drawing.png)
 
-Front and isometric views of the smaller housing section with:
+Front and isometric views of the shorter L-shaped side that directly holds the emergency stop button.
 
-- Central through-hole for E-stop pushbutton (22.5 mm diameter).
-- Tapped holes for connecting to the long side.
-- Reinforced aluminum edges for CNC milling tolerances.
+- **Circular cutout** to house the emergency stop pushbutton  
+- **Mounting holes** to interface with the long aluminum side  
+- Curved corner design for **manufacturability** and **safety**
 
 ---
 
-## 🖼️ Rendered Images
+## 🧩 Assembly and Cover
 
-### **1. Acrylic Cover – Isometric View**
+### 🟪 Acrylic Cover – Isometric View
 
 ![Acrylic Cover](images/acrylic_cover_iso.png)
 
-- Laser-cut acrylic plate designed to match aluminum geometry.
-- Connected using offset standoffs to conceal internals.
+Isometric view of the acrylic cover plate mounted via standoffs. This component hides the internal electronics and fasteners, leaving only the emergency stop button visible.
+
+- **Attached via standoffs** to the aluminum housing  
+- **Offset geometry** aligns precisely with the base housing  
+- Ensures a **minimalist and professional look**
 
 ---
 
-### **2. Full Assembly – Isometric View**
+### 🧱 Full Assembly – Isometric View
 
 ![Full Assembly](images/full_assembly_iso.png)
 
-- Shows integration of E-stop button, aluminum housing, and acrylic panel.
-- Color-coded for part clarity (aluminum = pink, acrylic = gray, button = red).
+Shows the complete system including the button, housing, and cover panel.
+
+- Button face is **flush-mounted** with acrylic cover  
+- Cables and fasteners are **fully enclosed**  
+- All parts designed for **CNC machinability** and **repeatability**
 
 ---
 
-### **3. Top View – Standoff Alignment**
+### 📏 Top-Down View – Standoff Alignment
 
-![Top View](images/top_view_standoff_alignment.png)
+![Top View Standoffs](images/top_view_standoff_alignment.png)
 
-- Cross-section reveals internal standoffs.
-- Shows how cover plate aligns precisely with aluminum side using spacers and screws.
+Top-down layout showing alignment of aluminum enclosure and acrylic cover via cylindrical standoffs.
 
----
-
-## 🔩 Design Considerations
-
-- **Material**: 6061-T6 Aluminum for strength, machinability, and corrosion resistance.
-- **Fabrication**: Split into two CNC-machinable sections for simplified tooling and fixturing.
-- **Aesthetics**: Only the red pushbutton is visible when installed — no bolts or wiring are exposed.
-- **Safety**: The enclosure is tamper-resistant while still allowing fast access to the E-stop button.
-- **Tolerance**: All fits were modeled with standard H7/h6 tolerance range for press and clearance fits.
+- **Standoffs precisely located** for even panel spacing  
+- Ensures **easy disassembly** for maintenance  
+- No interference with button action or cable routing  
 
 ---
 
-## 🛠️ Future Improvements
+## 🛠️ Design Considerations
 
-- Add cable passthrough grommet on rear side to prevent wire strain.
-- Consider switching from screws to dovetail interlock to reduce hardware.
-- Potentially use anodized aluminum for improved wear resistance and appearance.
-
----
-
-## 👤 Author
-
-**Kevin Yuan**  
-Mechanical Engineering, Duke University  
-GitHub: [@person343](https://github.com/person343)
+- **Material**: Aluminum was selected for the enclosure due to its high strength-to-weight ratio and machinability. Acrylic was chosen for the cover for aesthetic purposes and electrical insulation.
+- **Manufacturability**: The enclosure is split into two parts for ease of CNC machining and assembly.
+- **Aesthetics**: The L-shaped design and offset acrylic panel create a clean, concealed final appearance with minimal visual clutter.
+- **Robustness**: Threaded connections and tight tolerances ensure the structure remains secure even under mechanical impact.
