@@ -28,14 +28,14 @@ This combination of mechanical strength, manufacturability, and visual cleanline
 
 ## 🖼️ Rendered Images
 
-- **`acrylic_cover_iso.png`**  
-  Isometric view of the acrylic panel. This laser-cut cover is spaced from the aluminum structure via standoffs.
+- **Acrylic Cover (Isometric View)**  
+  ![Acrylic Cover Isometric View](images/acrylic_cover_iso.png)
 
-- **`full_assembly_iso.png`**  
-  Complete CAD view of the system including button, housing, and cover.
+- **Full Assembly (Isometric View)**  
+  ![Full Assembly Isometric View](images/full_assembly_iso.png)
 
-- **`top_view_standoff_alignment.png`**  
-  Top-down layout showing standoff spacing, helping ensure flush mounting and even cover support.
+- **Top View with Standoff Alignment**  
+  ![Top View Standoff Alignment](images/top_view_standoff_alignment.png)
 
 ---
 
