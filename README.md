@@ -12,14 +12,15 @@ This combination of mechanical strength, manufacturability, and visual cleanline
 ---
 
 ## 🧱 CAD Drawings
-
-- **`long_aluminum_side_drawing.png`**  
+- **Long Aluminum Side**  
+  ![Long Aluminum Side Drawing](cad_drawings/long_aluminum_side_drawing.png)
   Displays front and isometric views of the longer aluminum enclosure side.  
   - Mounting slots for attachment to device.
   - Material-reducing cutouts to lower weight while retaining stiffness.
   - Threaded holes for bolting to the short side.
 
-- **`short_aluminum_side_drawing.png`**  
+- **Short Aluminum Side**  
+  ![Short Aluminum Side Drawing](cad_drawings/short_aluminum_side_drawing.png)
   Details the component containing the button mounting hole.  
   - Central Ø22 hole for button insertion.
   - Bolt holes for structural assembly.
